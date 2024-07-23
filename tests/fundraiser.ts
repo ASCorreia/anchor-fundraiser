@@ -83,6 +83,7 @@ describe("fundraiser", () => {
     .accountsPartial({
       contributor: provider.publicKey,
       fundraiser,
+      mintToRaise: mint,
       contributorAccount: contributor,
       contributorAta: contributorATA,
       vault,
@@ -108,6 +109,7 @@ describe("fundraiser", () => {
     .accountsPartial({
       contributor: provider.publicKey,
       fundraiser,
+      mintToRaise: mint,
       contributorAccount: contributor,
       contributorAta: contributorATA,
       vault,
@@ -135,6 +137,7 @@ describe("fundraiser", () => {
       .accountsPartial({
         contributor: provider.publicKey,
         fundraiser,
+        mintToRaise: mint,
         contributorAccount: contributor,
         contributorAta: contributorATA,
         vault,
